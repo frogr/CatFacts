@@ -1,13 +1,16 @@
 import './App.css';
-import axios from 'axios';
+import React from 'react';
+import CatFact from './CatFact'
 
-
-function App() {
-  return (
+class App extends React.Component {
+  render() {
+    return(
     <div className="App">
       <h1> Cat Fact App </h1>
+      <CatFact />
     </div>
-  );
+    )
+  }
 }
 
 export default App;
