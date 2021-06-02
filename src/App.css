@@ -1,7 +1,10 @@
 .App {
   text-align: center;
 }
-
+.catPic {
+  height: 250px;
+  width: 250px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
